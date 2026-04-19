@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+  <PropertyGroup>
+
+    <!-- Your Gorilla Tag install directory -->
+    <GameDir>D:\SteamLibrary\steamapps\common\Gorilla Tag</GameDir>
+
+    <!-- Managed assemblies folder -->
+    <GameAssemblyPath>$(GameDir)\Gorilla Tag_Data\Managed</GameAssemblyPath>
+
+    <!-- BepInEx core assemblies -->
+    <BepInExAssemblyPath>$(GameDir)\BepInEx\core</BepInExAssemblyPath>
+
+    <!-- Plugin output folder (matches Directory.Build.targets) -->
+    <PluginsDir>$(GameDir)\BepInEx\plugins\FortniteEmoteWheel</PluginsDir>
+
+  </PropertyGroup>
+
+</Project>
