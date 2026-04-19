@@ -1,0 +1,197 @@
+# Ignore versioned zip builds
+*-v.zip
+
+###############################
+# VISUAL STUDIO / DOTNET
+###############################
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache
+.vs/
+
+# MSTest / NUnit / Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity
+_TeamCity*
+
+# DotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Web workbench
+.sass-cache/
+
+# ClickOnce
+publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+nuget.config
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# Windows Store
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Cache files
+*.[Cc]ache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.pfx
+*.publishsettings
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History
+.history/
+
+# Installers
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Rider
+.idea/
+*.sln.iml
+
+###############################
+# GORILLA TAG MODDING
+###############################
+
+# BepInEx plugin output
+BepInEx/
+BepInEx/plugins/
+BepInEx/patchers/
+BepInEx/core/
+BepInEx/config/
+
+# Gorilla Tag game files
+Gorilla Tag_Data/
+Gorilla Tag.exe
+steam_appid.txt
+
+# Unity asset bundles
+*.manifest
+*.bundle
+*.unity3d
+
+# Your mod build output
+FortniteEmoteWheel.dll
+FortniteEmoteWheel/
+*.dll
+
+# Ignore embedded resource cache
+Resources/*.meta
+
+###############################
+# PROJECT-SPECIFIC
+###############################
+
+# Ignore local build paths
+/GameDir/
