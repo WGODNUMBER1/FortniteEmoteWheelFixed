@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+  <!-- Auto-detect Gorilla Tag install directory -->
+  <PropertyGroup>
+    <!-- Change this if your Steam is installed somewhere else -->
+    <GameDir>$(LOCALAPPDATA)\..\LocalLow\Another Axiom\Gorilla Tag</GameDir>
+
+    <!-- BepInEx plugin output folder -->
+    <PluginsDir>$(GameDir)\BepInEx\plugins\FortniteEmoteWheel</PluginsDir>
+  </PropertyGroup>
+
+  <!-- Automatically copy mod DLL after build -->
+  <Target Name="CopyToPlugins" AfterTargets="Build" Condition="'$(Configuration)'=='Debug' Or '$(Configuration)'=='Release'">
+    <MakeDir Directories="$(PluginsDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginsDir)" />
+    <Message Text="✔ FortniteEmoteWheel copied to BepInEx/plugins" Importance="high" />
+  </Target>
+
+</Project>
